@@ -14,11 +14,18 @@ struct LandmarkRowView: View {
         HStack {
             landmark.image
                 .resizable()
+                .scaledToFill()
                 .frame(width: 50, height: 50)
+                .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
             
             Text(landmark.name)
             
             Spacer()
+            
+            if landmark.isFavorite {
+                Image(systemName: "star.fill")
+                    .foregroundStyle(Color.yellow)
+            }
         }
     }
 }
