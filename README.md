@@ -6,7 +6,7 @@ The Landmark App is a sample iOS project developed using SwiftUI. This app demon
 
 ## Screenshots
 
-Coming Soon
+![Landmark Preview](https://res.cloudinary.com/moyadev/image/upload/v1702473520/iSwift/LandmarkPreview_ahqhnq.png)
 
 
 ## Features
