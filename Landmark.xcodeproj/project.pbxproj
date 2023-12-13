@@ -16,6 +16,8 @@
 		533E15112B29D3F50018B5D5 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533E15102B29D3F50018B5D5 /* Landmark.swift */; };
 		533E15132B29D5A90018B5D5 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533E15122B29D5A90018B5D5 /* ModelData.swift */; };
 		533E15162B29D6870018B5D5 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 533E15152B29D6870018B5D5 /* landmarkData.json */; };
+		533E15182B29DA810018B5D5 /* LandmarkRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533E15172B29DA810018B5D5 /* LandmarkRowView.swift */; };
+		533E151A2B29DC6C0018B5D5 /* LandmarkListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533E15192B29DC6C0018B5D5 /* LandmarkListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		533E15102B29D3F50018B5D5 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		533E15122B29D5A90018B5D5 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		533E15152B29D6870018B5D5 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		533E15172B29DA810018B5D5 /* LandmarkRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRowView.swift; sourceTree = "<group>"; };
+		533E15192B29DC6C0018B5D5 /* LandmarkListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 				533E150B2B29CFCB0018B5D5 /* CircleImageView.swift */,
 				533E150D2B29D0E80018B5D5 /* MapView.swift */,
 				533E14FE2B29C5690018B5D5 /* ContentView.swift */,
+				533E15172B29DA810018B5D5 /* LandmarkRowView.swift */,
+				533E15192B29DC6C0018B5D5 /* LandmarkListView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -179,8 +185,10 @@
 			files = (
 				533E14FF2B29C5690018B5D5 /* ContentView.swift in Sources */,
 				533E150E2B29D0E80018B5D5 /* MapView.swift in Sources */,
+				533E151A2B29DC6C0018B5D5 /* LandmarkListView.swift in Sources */,
 				533E150C2B29CFCB0018B5D5 /* CircleImageView.swift in Sources */,
 				533E14FD2B29C5690018B5D5 /* LandmarkApp.swift in Sources */,
+				533E15182B29DA810018B5D5 /* LandmarkRowView.swift in Sources */,
 				533E15112B29D3F50018B5D5 /* Landmark.swift in Sources */,
 				533E15132B29D5A90018B5D5 /* ModelData.swift in Sources */,
 			);
