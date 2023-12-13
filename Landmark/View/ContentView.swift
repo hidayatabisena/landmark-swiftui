@@ -9,21 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationSplitView {
-            List(landmarks) { landmark in
-                NavigationLink {
-                    LandmarkDetailView(landmark: landmark)
-                } label: {
-                    LandmarkRowView(landmark: landmark)
-                }
-            }
-            .navigationTitle("Landmarks")
-        } detail: {
-            Text("Select a Landmark")
-        }
+        LandmarkListView()
     }
 }
 
 #Preview {
     ContentView()
+        .environment(ModelData())
 }
