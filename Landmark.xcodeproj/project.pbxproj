@@ -57,7 +57,6 @@
 			children = (
 				533E150A2B29CFB20018B5D5 /* View */,
 				533E14FC2B29C5690018B5D5 /* LandmarkApp.swift */,
-				533E14FE2B29C5690018B5D5 /* ContentView.swift */,
 				533E15002B29C56B0018B5D5 /* Assets.xcassets */,
 				533E15022B29C56B0018B5D5 /* Preview Content */,
 			);
@@ -77,6 +76,7 @@
 			children = (
 				533E150B2B29CFCB0018B5D5 /* CircleImageView.swift */,
 				533E150D2B29D0E80018B5D5 /* MapView.swift */,
+				533E14FE2B29C5690018B5D5 /* ContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
